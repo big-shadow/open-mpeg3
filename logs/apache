@@ -1,0 +1,236 @@
+[Wed Aug 02 20:27:18.135701 2017] [ssl:info] [pid 6693:tid 140603082509248] AH01887: Init: Initializing (virtual) servers for SSL
+[Wed Aug 02 20:27:18.135764 2017] [ssl:info] [pid 6693:tid 140603082509248] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Aug 02 20:27:18.140272 2017] [ssl:warn] [pid 6693:tid 140603082509248] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Aug 02 20:27:18.140279 2017] [ssl:info] [pid 6693:tid 140603082509248] AH01887: Init: Initializing (virtual) servers for SSL
+[Wed Aug 02 20:27:18.140285 2017] [ssl:info] [pid 6693:tid 140603082509248] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+[Wed Aug 02 20:27:18.141306 2017] [mpm_event:notice] [pid 6693:tid 140603082509248] AH00489: Apache/2.4.27 (Unix) OpenSSL/1.1.0f configured -- resuming normal operations
+[Wed Aug 02 20:27:18.141327 2017] [mpm_event:info] [pid 6693:tid 140603082509248] AH00490: Server built: Jul 12 2017 08:50:27
+[Wed Aug 02 20:27:18.141342 2017] [core:notice] [pid 6693:tid 140603082509248] AH00094: Command line: '/usr/bin/httpd -D FOREGROUND'
+[Wed Aug 02 20:27:18.141347 2017] [core:debug] [pid 6693:tid 140603082509248] log.c(1546): AH02639: Using SO_REUSEPORT: yes (1)
+[Wed Aug 02 20:27:18.142216 2017] [mpm_event:debug] [pid 6697:tid 140602975692544] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:27:18.143266 2017] [mpm_event:debug] [pid 6699:tid 140602975692544] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:27:18.144631 2017] [mpm_event:debug] [pid 6698:tid 140602975692544] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:27:26.419198 2017] [core:error] [pid 6699:tid 140602967299840] (13)Permission denied: [client ::1:55254] AH00035: access to / denied (filesystem path '/home/rw/Documents') because search permissions are missing on a component of the path
+[Wed Aug 02 20:27:26.419312 2017] [authz_core:debug] [pid 6699:tid 140602967299840] mod_authz_core.c(809): [client ::1:55254] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:27:26.419321 2017] [authz_core:debug] [pid 6699:tid 140602967299840] mod_authz_core.c(809): [client ::1:55254] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:27:26.598271 2017] [core:error] [pid 6699:tid 140602851186432] (13)Permission denied: [client ::1:55254] AH00035: access to /favicon.ico denied (filesystem path '/home/rw/Documents') because search permissions are missing on a component of the path
+[Wed Aug 02 20:27:26.598383 2017] [authz_core:debug] [pid 6699:tid 140602851186432] mod_authz_core.c(809): [client ::1:55254] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:27:26.598400 2017] [authz_core:debug] [pid 6699:tid 140602851186432] mod_authz_core.c(809): [client ::1:55254] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:27:58.181506 2017] [mpm_event:debug] [pid 6826:tid 140602975692544] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:28:17.922747 2017] [reqtimeout:info] [pid 6697:tid 140602851186432] [client ::1:55256] AH01382: Request header read timeout
+[Wed Aug 02 20:28:40.843938 2017] [core:error] [pid 6698:tid 140602967299840] (13)Permission denied: [client ::1:55266] AH00035: access to / denied (filesystem path '/home/rw/Documents') because search permissions are missing on a component of the path
+[Wed Aug 02 20:28:40.844118 2017] [authz_core:debug] [pid 6698:tid 140602967299840] mod_authz_core.c(809): [client ::1:55266] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:28:40.844154 2017] [authz_core:debug] [pid 6698:tid 140602967299840] mod_authz_core.c(809): [client ::1:55266] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:28:40.951560 2017] [core:error] [pid 6698:tid 140602851186432] (13)Permission denied: [client ::1:55266] AH00035: access to /favicon.ico denied (filesystem path '/home/rw/Documents') because search permissions are missing on a component of the path
+[Wed Aug 02 20:28:40.951659 2017] [authz_core:debug] [pid 6698:tid 140602851186432] mod_authz_core.c(809): [client ::1:55266] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:28:40.951676 2017] [authz_core:debug] [pid 6698:tid 140602851186432] mod_authz_core.c(809): [client ::1:55266] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:28:43.031780 2017] [core:error] [pid 6698:tid 140602809222912] (13)Permission denied: [client ::1:55266] AH00035: access to / denied (filesystem path '/home/rw/Documents') because search permissions are missing on a component of the path
+[Wed Aug 02 20:28:43.031899 2017] [authz_core:debug] [pid 6698:tid 140602809222912] mod_authz_core.c(809): [client ::1:55266] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:28:43.031922 2017] [authz_core:debug] [pid 6698:tid 140602809222912] mod_authz_core.c(809): [client ::1:55266] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:28:43.118008 2017] [core:error] [pid 6698:tid 140602767259392] (13)Permission denied: [client ::1:55266] AH00035: access to /favicon.ico denied (filesystem path '/home/rw/Documents') because search permissions are missing on a component of the path
+[Wed Aug 02 20:28:43.118086 2017] [authz_core:debug] [pid 6698:tid 140602767259392] mod_authz_core.c(809): [client ::1:55266] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:28:43.118095 2017] [authz_core:debug] [pid 6698:tid 140602767259392] mod_authz_core.c(809): [client ::1:55266] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:29:30.288035 2017] [core:error] [pid 6699:tid 140602800830208] (13)Permission denied: [client ::1:55274] AH00035: access to / denied (filesystem path '/home/rw/Documents') because search permissions are missing on a component of the path
+[Wed Aug 02 20:29:30.288171 2017] [authz_core:debug] [pid 6699:tid 140602800830208] mod_authz_core.c(809): [client ::1:55274] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:29:30.288189 2017] [authz_core:debug] [pid 6699:tid 140602800830208] mod_authz_core.c(809): [client ::1:55274] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:29:30.462873 2017] [core:error] [pid 6699:tid 140602758866688] (13)Permission denied: [client ::1:55274] AH00035: access to /favicon.ico denied (filesystem path '/home/rw/Documents') because search permissions are missing on a component of the path
+[Wed Aug 02 20:29:30.462930 2017] [authz_core:debug] [pid 6699:tid 140602758866688] mod_authz_core.c(809): [client ::1:55274] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:29:30.462936 2017] [authz_core:debug] [pid 6699:tid 140602758866688] mod_authz_core.c(809): [client ::1:55274] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:30:22.524224 2017] [reqtimeout:info] [pid 6698:tid 140602725295872] [client ::1:55276] AH01382: Request header read timeout
+[Wed Aug 02 20:30:23.938366 2017] [core:alert] [pid 6826:tid 140602867971840] [client ::1:55280] /home/rw/Documents/GitHub-Repos/open-mpeg3/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Aug 02 20:30:23.938496 2017] [authz_core:debug] [pid 6826:tid 140602867971840] mod_authz_core.c(809): [client ::1:55280] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:30:23.938517 2017] [authz_core:debug] [pid 6826:tid 140602867971840] mod_authz_core.c(809): [client ::1:55280] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:30:24.200398 2017] [core:alert] [pid 6826:tid 140602851186432] [client ::1:55282] /home/rw/Documents/GitHub-Repos/open-mpeg3/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Aug 02 20:30:24.200530 2017] [authz_core:debug] [pid 6826:tid 140602851186432] mod_authz_core.c(809): [client ::1:55282] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:30:24.200549 2017] [authz_core:debug] [pid 6826:tid 140602851186432] mod_authz_core.c(809): [client ::1:55282] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:30:29.269020 2017] [core:alert] [pid 6698:tid 140602716903168] [client ::1:55284] /home/rw/Documents/GitHub-Repos/open-mpeg3/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Aug 02 20:30:29.269139 2017] [authz_core:debug] [pid 6698:tid 140602716903168] mod_authz_core.c(809): [client ::1:55284] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:30:29.269158 2017] [authz_core:debug] [pid 6698:tid 140602716903168] mod_authz_core.c(809): [client ::1:55284] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:30:29.362003 2017] [core:alert] [pid 6826:tid 140602834401024] [client ::1:55286] /home/rw/Documents/GitHub-Repos/open-mpeg3/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Aug 02 20:30:29.362121 2017] [authz_core:debug] [pid 6826:tid 140602834401024] mod_authz_core.c(809): [client ::1:55286] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:30:29.362140 2017] [authz_core:debug] [pid 6826:tid 140602834401024] mod_authz_core.c(809): [client ::1:55286] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:30:55.708710 2017] [core:alert] [pid 6699:tid 140602716903168] [client ::1:55344] /home/rw/Documents/GitHub-Repos/open-mpeg3/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Aug 02 20:30:55.708828 2017] [authz_core:debug] [pid 6699:tid 140602716903168] mod_authz_core.c(809): [client ::1:55344] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:30:55.708846 2017] [authz_core:debug] [pid 6699:tid 140602716903168] mod_authz_core.c(809): [client ::1:55344] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:30:55.883732 2017] [core:alert] [pid 6697:tid 140602859579136] [client ::1:55346] /home/rw/Documents/GitHub-Repos/open-mpeg3/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Aug 02 20:30:55.883799 2017] [authz_core:debug] [pid 6697:tid 140602859579136] mod_authz_core.c(809): [client ::1:55346] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:30:55.883806 2017] [authz_core:debug] [pid 6697:tid 140602859579136] mod_authz_core.c(809): [client ::1:55346] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:36:47.674841 2017] [core:info] [pid 6693:tid 140603082509248] AH00096: removed PID file /run/httpd/httpd.pid (pid=6693)
+[Wed Aug 02 20:36:47.674876 2017] [mpm_event:notice] [pid 6693:tid 140603082509248] AH00492: caught SIGWINCH, shutting down gracefully
+[Wed Aug 02 20:36:47.774588 2017] [ssl:info] [pid 7456:tid 139868844862400] AH01887: Init: Initializing (virtual) servers for SSL
+[Wed Aug 02 20:36:47.774654 2017] [ssl:info] [pid 7456:tid 139868844862400] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Aug 02 20:36:47.781981 2017] [ssl:warn] [pid 7456:tid 139868844862400] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Aug 02 20:36:47.781992 2017] [ssl:info] [pid 7456:tid 139868844862400] AH01887: Init: Initializing (virtual) servers for SSL
+[Wed Aug 02 20:36:47.782001 2017] [ssl:info] [pid 7456:tid 139868844862400] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+[Wed Aug 02 20:36:47.783134 2017] [mpm_event:notice] [pid 7456:tid 139868844862400] AH00489: Apache/2.4.27 (Unix) OpenSSL/1.1.0f configured -- resuming normal operations
+[Wed Aug 02 20:36:47.783149 2017] [mpm_event:info] [pid 7456:tid 139868844862400] AH00490: Server built: Jul 12 2017 08:50:27
+[Wed Aug 02 20:36:47.783166 2017] [core:notice] [pid 7456:tid 139868844862400] AH00094: Command line: '/usr/bin/httpd -D FOREGROUND'
+[Wed Aug 02 20:36:47.783172 2017] [core:debug] [pid 7456:tid 139868844862400] log.c(1546): AH02639: Using SO_REUSEPORT: yes (1)
+[Wed Aug 02 20:36:47.783658 2017] [mpm_event:debug] [pid 7461:tid 139868737939200] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:36:47.784645 2017] [mpm_event:debug] [pid 7462:tid 139868737939200] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:36:47.785144 2017] [mpm_event:debug] [pid 7463:tid 139868737939200] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:36:51.489569 2017] [authz_core:debug] [pid 7463:tid 139868729546496] mod_authz_core.c(809): [client ::1:55360] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:36:51.489624 2017] [authz_core:debug] [pid 7463:tid 139868729546496] mod_authz_core.c(809): [client ::1:55360] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:36:51.514054 2017] [authz_core:debug] [pid 7463:tid 139868721153792] mod_authz_core.c(809): [client ::1:55360] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:36:51.514111 2017] [authz_core:debug] [pid 7463:tid 139868721153792] mod_authz_core.c(809): [client ::1:55360] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:36:51.516024 2017] [authz_core:debug] [pid 7463:tid 139868712761088] mod_authz_core.c(809): [client ::1:55360] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:36:51.516066 2017] [authz_core:debug] [pid 7463:tid 139868712761088] mod_authz_core.c(809): [client ::1:55360] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:36:51.671794 2017] [authz_core:debug] [pid 7463:tid 139868629890816] mod_authz_core.c(809): [client ::1:55360] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:36:51.671832 2017] [authz_core:debug] [pid 7463:tid 139868629890816] mod_authz_core.c(809): [client ::1:55360] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:36:54.893502 2017] [authz_core:debug] [pid 7463:tid 139868621498112] mod_authz_core.c(809): [client ::1:55360] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:36:54.893550 2017] [authz_core:debug] [pid 7463:tid 139868621498112] mod_authz_core.c(809): [client ::1:55360] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:40:04.180274 2017] [core:info] [pid 7456:tid 139868844862400] AH00096: removed PID file /run/httpd/httpd.pid (pid=7456)
+[Wed Aug 02 20:40:04.180308 2017] [mpm_event:notice] [pid 7456:tid 139868844862400] AH00492: caught SIGWINCH, shutting down gracefully
+[Wed Aug 02 20:40:04.301004 2017] [ssl:info] [pid 7659:tid 140081425984448] AH01887: Init: Initializing (virtual) servers for SSL
+[Wed Aug 02 20:40:04.301092 2017] [ssl:info] [pid 7659:tid 140081425984448] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Aug 02 20:40:04.305233 2017] [ssl:warn] [pid 7659:tid 140081425984448] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Aug 02 20:40:04.305241 2017] [ssl:info] [pid 7659:tid 140081425984448] AH01887: Init: Initializing (virtual) servers for SSL
+[Wed Aug 02 20:40:04.305248 2017] [ssl:info] [pid 7659:tid 140081425984448] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+[Wed Aug 02 20:40:04.306099 2017] [mpm_event:notice] [pid 7659:tid 140081425984448] AH00489: Apache/2.4.27 (Unix) OpenSSL/1.1.0f configured -- resuming normal operations
+[Wed Aug 02 20:40:04.306117 2017] [mpm_event:info] [pid 7659:tid 140081425984448] AH00490: Server built: Jul 12 2017 08:50:27
+[Wed Aug 02 20:40:04.306131 2017] [core:notice] [pid 7659:tid 140081425984448] AH00094: Command line: '/usr/bin/httpd -D FOREGROUND'
+[Wed Aug 02 20:40:04.306135 2017] [core:debug] [pid 7659:tid 140081425984448] log.c(1546): AH02639: Using SO_REUSEPORT: yes (1)
+[Wed Aug 02 20:40:04.306473 2017] [mpm_event:debug] [pid 7664:tid 140081319094016] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:40:04.308395 2017] [mpm_event:debug] [pid 7665:tid 140081319094016] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:40:04.309371 2017] [mpm_event:debug] [pid 7666:tid 140081319094016] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:40:07.937516 2017] [authz_core:debug] [pid 7664:tid 140081205593856] mod_authz_core.c(809): [client ::1:55418] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:40:07.937545 2017] [authz_core:debug] [pid 7664:tid 140081205593856] mod_authz_core.c(809): [client ::1:55418] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:40:08.123655 2017] [authz_core:debug] [pid 7664:tid 140081197201152] mod_authz_core.c(809): [client ::1:55418] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:40:08.123683 2017] [authz_core:debug] [pid 7664:tid 140081197201152] mod_authz_core.c(809): [client ::1:55418] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:48.419628 2017] [core:info] [pid 7659:tid 140081425984448] AH00096: removed PID file /run/httpd/httpd.pid (pid=7659)
+[Wed Aug 02 20:41:48.419664 2017] [mpm_event:notice] [pid 7659:tid 140081425984448] AH00492: caught SIGWINCH, shutting down gracefully
+[Wed Aug 02 20:41:48.497592 2017] [ssl:info] [pid 7835:tid 140079682071488] AH01887: Init: Initializing (virtual) servers for SSL
+[Wed Aug 02 20:41:48.497630 2017] [ssl:info] [pid 7835:tid 140079682071488] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Aug 02 20:41:48.501582 2017] [ssl:warn] [pid 7835:tid 140079682071488] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Aug 02 20:41:48.501591 2017] [ssl:info] [pid 7835:tid 140079682071488] AH01887: Init: Initializing (virtual) servers for SSL
+[Wed Aug 02 20:41:48.501598 2017] [ssl:info] [pid 7835:tid 140079682071488] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+[Wed Aug 02 20:41:48.502525 2017] [mpm_event:notice] [pid 7835:tid 140079682071488] AH00489: Apache/2.4.27 (Unix) OpenSSL/1.1.0f configured -- resuming normal operations
+[Wed Aug 02 20:41:48.502539 2017] [mpm_event:info] [pid 7835:tid 140079682071488] AH00490: Server built: Jul 12 2017 08:50:27
+[Wed Aug 02 20:41:48.502552 2017] [core:notice] [pid 7835:tid 140079682071488] AH00094: Command line: '/usr/bin/httpd -D FOREGROUND'
+[Wed Aug 02 20:41:48.502557 2017] [core:debug] [pid 7835:tid 140079682071488] log.c(1546): AH02639: Using SO_REUSEPORT: yes (1)
+[Wed Aug 02 20:41:48.502862 2017] [mpm_event:debug] [pid 7839:tid 140079575148288] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:41:48.503883 2017] [mpm_event:debug] [pid 7840:tid 140079575148288] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:41:48.506852 2017] [mpm_event:debug] [pid 7841:tid 140079575148288] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:41:52.850689 2017] [authz_core:debug] [pid 7841:tid 140079566755584] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:52.850747 2017] [authz_core:debug] [pid 7841:tid 140079566755584] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:52.850962 2017] [authz_core:debug] [pid 7841:tid 140079566755584] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:52.850984 2017] [authz_core:debug] [pid 7841:tid 140079566755584] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:53.001509 2017] [authz_core:debug] [pid 7841:tid 140079485941504] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:53.001531 2017] [authz_core:debug] [pid 7841:tid 140079485941504] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:53.001578 2017] [authz_core:debug] [pid 7841:tid 140079485941504] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:53.001585 2017] [authz_core:debug] [pid 7841:tid 140079485941504] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:54.445576 2017] [authz_core:debug] [pid 7841:tid 140079477548800] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:54.445641 2017] [authz_core:debug] [pid 7841:tid 140079477548800] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:54.445866 2017] [authz_core:debug] [pid 7841:tid 140079477548800] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:54.445899 2017] [authz_core:debug] [pid 7841:tid 140079477548800] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:54.528981 2017] [authz_core:debug] [pid 7841:tid 140079469156096] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:54.529006 2017] [authz_core:debug] [pid 7841:tid 140079469156096] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:54.529053 2017] [authz_core:debug] [pid 7841:tid 140079469156096] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:54.529060 2017] [authz_core:debug] [pid 7841:tid 140079469156096] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:55.698796 2017] [authz_core:debug] [pid 7841:tid 140079460763392] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:55.698832 2017] [authz_core:debug] [pid 7841:tid 140079460763392] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:55.698917 2017] [authz_core:debug] [pid 7841:tid 140079460763392] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:55.698927 2017] [authz_core:debug] [pid 7841:tid 140079460763392] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:55.764679 2017] [authz_core:debug] [pid 7841:tid 140079452370688] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:55.764700 2017] [authz_core:debug] [pid 7841:tid 140079452370688] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:55.764739 2017] [authz_core:debug] [pid 7841:tid 140079452370688] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:55.764746 2017] [authz_core:debug] [pid 7841:tid 140079452370688] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:57.055016 2017] [authz_core:debug] [pid 7841:tid 140079443977984] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:57.055077 2017] [authz_core:debug] [pid 7841:tid 140079443977984] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:57.055139 2017] [authz_core:debug] [pid 7841:tid 140079443977984] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:57.055143 2017] [authz_core:debug] [pid 7841:tid 140079443977984] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:57.161630 2017] [authz_core:debug] [pid 7841:tid 140079435585280] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:57.161650 2017] [authz_core:debug] [pid 7841:tid 140079435585280] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:41:57.161695 2017] [authz_core:debug] [pid 7841:tid 140079435585280] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:41:57.161701 2017] [authz_core:debug] [pid 7841:tid 140079435585280] mod_authz_core.c(809): [client ::1:55442] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:42:25.537181 2017] [mpm_event:debug] [pid 7943:tid 140079575148288] event.c(1980): AH02471: start_threads: Using epoll
+[Wed Aug 02 20:42:44.924179 2017] [reqtimeout:info] [pid 7840:tid 140079566755584] [client ::1:55444] AH01382: Request header read timeout
+[Wed Aug 02 20:46:29.377532 2017] [core:info] [pid 7835:tid 140079682071488] AH00096: removed PID file /run/httpd/httpd.pid (pid=7835)
+[Wed Aug 02 20:46:29.377565 2017] [mpm_event:notice] [pid 7835:tid 140079682071488] AH00491: caught SIGTERM, shutting down
+[Wed Aug 02 20:50:05.942121 2017] [ssl:info] [pid 8302] AH01887: Init: Initializing (virtual) servers for SSL
+[Wed Aug 02 20:50:05.942729 2017] [ssl:info] [pid 8302] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+[Wed Aug 02 20:50:05.956736 2017] [ssl:warn] [pid 8302] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Aug 02 20:50:05.956772 2017] [ssl:info] [pid 8302] AH01887: Init: Initializing (virtual) servers for SSL
+[Wed Aug 02 20:50:05.956794 2017] [ssl:info] [pid 8302] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/modules/pdo_sqlite.so' - /usr/lib/php/modules/pdo_sqlite.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[Wed Aug 02 20:50:05.963128 2017] [mpm_prefork:notice] [pid 8302] AH00163: Apache/2.4.27 (Unix) OpenSSL/1.1.0f PHP/7.1.7 configured -- resuming normal operations
+[Wed Aug 02 20:50:05.963153 2017] [mpm_prefork:info] [pid 8302] AH00164: Server built: Jul 12 2017 08:50:27
+[Wed Aug 02 20:50:05.963169 2017] [core:notice] [pid 8302] AH00094: Command line: '/usr/bin/httpd -D FOREGROUND'
+[Wed Aug 02 20:50:05.963173 2017] [core:debug] [pid 8302] log.c(1546): AH02639: Using SO_REUSEPORT: yes (1)
+[Wed Aug 02 20:50:05.963182 2017] [mpm_prefork:debug] [pid 8302] prefork.c(916): AH00165: Accept mutex: none (default: sysvsem)
+[Wed Aug 02 20:50:15.794932 2017] [authz_core:debug] [pid 8306] mod_authz_core.c(809): [client 127.0.0.1:53268] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:50:15.794971 2017] [authz_core:debug] [pid 8306] mod_authz_core.c(809): [client 127.0.0.1:53268] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:50:15.795042 2017] [authz_core:debug] [pid 8306] mod_authz_core.c(809): [client 127.0.0.1:53268] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:50:15.795048 2017] [authz_core:debug] [pid 8306] mod_authz_core.c(809): [client 127.0.0.1:53268] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:50:15.796827 2017] [php7:warn] [pid 8306] [client 127.0.0.1:53268] PHP Warning:  require(flight/Flight.php): failed to open stream: No such file or directory in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 3
+[Wed Aug 02 20:50:15.796856 2017] [php7:error] [pid 8306] [client 127.0.0.1:53268] PHP Fatal error:  require(): Failed opening required 'flight/Flight.php' (include_path='.:') in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 3
+[Wed Aug 02 20:50:20.568420 2017] [authz_core:debug] [pid 8307] mod_authz_core.c(809): [client ::1:55588] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:50:20.568456 2017] [authz_core:debug] [pid 8307] mod_authz_core.c(809): [client ::1:55588] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:50:20.568515 2017] [authz_core:debug] [pid 8307] mod_authz_core.c(809): [client ::1:55588] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:50:20.568519 2017] [authz_core:debug] [pid 8307] mod_authz_core.c(809): [client ::1:55588] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:50:20.569886 2017] [php7:warn] [pid 8307] [client ::1:55588] PHP Warning:  require(flight/Flight.php): failed to open stream: No such file or directory in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 3
+[Wed Aug 02 20:50:20.569913 2017] [php7:error] [pid 8307] [client ::1:55588] PHP Fatal error:  require(): Failed opening required 'flight/Flight.php' (include_path='.:') in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 3
+[Wed Aug 02 20:50:23.671094 2017] [authz_core:debug] [pid 8308] mod_authz_core.c(809): [client ::1:55590] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:50:23.671131 2017] [authz_core:debug] [pid 8308] mod_authz_core.c(809): [client ::1:55590] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:50:23.671205 2017] [authz_core:debug] [pid 8308] mod_authz_core.c(809): [client ::1:55590] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:50:23.671214 2017] [authz_core:debug] [pid 8308] mod_authz_core.c(809): [client ::1:55590] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:50:23.672509 2017] [php7:warn] [pid 8308] [client ::1:55590] PHP Warning:  require(flight/Flight.php): failed to open stream: No such file or directory in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 3
+[Wed Aug 02 20:50:23.672539 2017] [php7:error] [pid 8308] [client ::1:55590] PHP Fatal error:  require(): Failed opening required 'flight/Flight.php' (include_path='.:') in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 3
+[Wed Aug 02 20:50:28.862994 2017] [authz_core:debug] [pid 8310] mod_authz_core.c(809): [client 127.0.0.1:43698] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:50:28.863043 2017] [authz_core:debug] [pid 8310] mod_authz_core.c(809): [client 127.0.0.1:43698] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:50:28.863145 2017] [authz_core:debug] [pid 8310] mod_authz_core.c(809): [client 127.0.0.1:43698] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:50:28.863151 2017] [authz_core:debug] [pid 8310] mod_authz_core.c(809): [client 127.0.0.1:43698] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:50:28.864348 2017] [php7:warn] [pid 8310] [client 127.0.0.1:43698] PHP Warning:  require(flight/Flight.php): failed to open stream: No such file or directory in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 3
+[Wed Aug 02 20:50:28.864372 2017] [php7:error] [pid 8310] [client 127.0.0.1:43698] PHP Fatal error:  require(): Failed opening required 'flight/Flight.php' (include_path='.:') in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 3
+[Wed Aug 02 20:51:15.209661 2017] [reqtimeout:info] [pid 8306] [client ::1:55592] AH01382: Request header read timeout
+[Wed Aug 02 20:51:20.337436 2017] [reqtimeout:info] [pid 8307] [client 127.0.0.1:43700] AH01382: Request header read timeout
+[Wed Aug 02 20:53:32.764841 2017] [authz_core:debug] [pid 8308] mod_authz_core.c(809): [client 127.0.0.1:43726] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:53:32.764900 2017] [authz_core:debug] [pid 8308] mod_authz_core.c(809): [client 127.0.0.1:43726] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:53:32.765055 2017] [authz_core:debug] [pid 8308] mod_authz_core.c(809): [client 127.0.0.1:43726] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:53:32.765073 2017] [authz_core:debug] [pid 8308] mod_authz_core.c(809): [client 127.0.0.1:43726] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:53:32.765477 2017] [php7:warn] [pid 8308] [client 127.0.0.1:43726] PHP Warning:  require(flight/Flight.php): failed to open stream: No such file or directory in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 3
+[Wed Aug 02 20:53:32.765512 2017] [php7:error] [pid 8308] [client 127.0.0.1:43726] PHP Fatal error:  require(): Failed opening required 'flight/Flight.php' (include_path='.:') in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 3
+[Wed Aug 02 20:54:24.649537 2017] [reqtimeout:info] [pid 8309] [client 127.0.0.1:43728] AH01382: Request header read timeout
+[Wed Aug 02 20:57:28.571370 2017] [authz_core:debug] [pid 8310] mod_authz_core.c(809): [client 127.0.0.1:43748] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:57:28.571452 2017] [authz_core:debug] [pid 8310] mod_authz_core.c(809): [client 127.0.0.1:43748] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:57:28.571621 2017] [authz_core:debug] [pid 8310] mod_authz_core.c(809): [client 127.0.0.1:43748] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:57:28.571635 2017] [authz_core:debug] [pid 8310] mod_authz_core.c(809): [client 127.0.0.1:43748] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:57:28.572035 2017] [php7:warn] [pid 8310] [client 127.0.0.1:43748] PHP Warning:  require(../vendor/flight/Flight.php): failed to open stream: No such file or directory in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 3
+[Wed Aug 02 20:57:28.572066 2017] [php7:error] [pid 8310] [client 127.0.0.1:43748] PHP Fatal error:  require(): Failed opening required '../vendor/flight/Flight.php' (include_path='.:') in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 3
+[Wed Aug 02 20:57:55.532637 2017] [authz_core:debug] [pid 8398] mod_authz_core.c(809): [client 127.0.0.1:43754] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:57:55.532709 2017] [authz_core:debug] [pid 8398] mod_authz_core.c(809): [client 127.0.0.1:43754] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:57:55.532878 2017] [authz_core:debug] [pid 8398] mod_authz_core.c(809): [client 127.0.0.1:43754] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:57:55.532900 2017] [authz_core:debug] [pid 8398] mod_authz_core.c(809): [client 127.0.0.1:43754] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:57:55.730900 2017] [authz_core:debug] [pid 8398] mod_authz_core.c(809): [client 127.0.0.1:43754] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:57:55.730936 2017] [authz_core:debug] [pid 8398] mod_authz_core.c(809): [client 127.0.0.1:43754] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:57:55.731027 2017] [authz_core:debug] [pid 8398] mod_authz_core.c(809): [client 127.0.0.1:43754] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:57:55.731046 2017] [authz_core:debug] [pid 8398] mod_authz_core.c(809): [client 127.0.0.1:43754] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:58:31.284180 2017] [authz_core:debug] [pid 8307] mod_authz_core.c(809): [client 127.0.0.1:43760] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:58:31.284256 2017] [authz_core:debug] [pid 8307] mod_authz_core.c(809): [client 127.0.0.1:43760] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:58:31.284409 2017] [authz_core:debug] [pid 8307] mod_authz_core.c(809): [client 127.0.0.1:43760] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:58:31.284431 2017] [authz_core:debug] [pid 8307] mod_authz_core.c(809): [client 127.0.0.1:43760] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:58:31.284867 2017] [php7:warn] [pid 8307] [client 127.0.0.1:43760] PHP Warning:  require(../vendor/mikecao/flight/Flight.php): failed to open stream: No such file or directory in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 4
+[Wed Aug 02 20:58:31.284906 2017] [php7:error] [pid 8307] [client 127.0.0.1:43760] PHP Fatal error:  require(): Failed opening required '../vendor/mikecao/flight/Flight.php' (include_path='.:') in /home/rw/Documents/GitHub-Repos/open-mpeg3/public/index.php on line 4
+[Wed Aug 02 20:59:00.026690 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client 127.0.0.1:43764] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:59:00.026760 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client 127.0.0.1:43764] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:59:00.026945 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client 127.0.0.1:43764] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:59:00.026966 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client 127.0.0.1:43764] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:59:00.217305 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client 127.0.0.1:43764] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:59:00.217328 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client 127.0.0.1:43764] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:59:00.217384 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client 127.0.0.1:43764] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 20:59:00.217395 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client 127.0.0.1:43764] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 20:59:52.337466 2017] [reqtimeout:info] [pid 8310] [client 127.0.0.1:43766] AH01382: Request header read timeout
+[Wed Aug 02 21:01:19.123777 2017] [authz_core:debug] [pid 8397] mod_authz_core.c(809): [client 127.0.0.1:43784] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 21:01:19.123854 2017] [authz_core:debug] [pid 8397] mod_authz_core.c(809): [client 127.0.0.1:43784] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 21:01:19.124093 2017] [authz_core:debug] [pid 8397] mod_authz_core.c(809): [client 127.0.0.1:43784] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 21:01:19.124135 2017] [authz_core:debug] [pid 8397] mod_authz_core.c(809): [client 127.0.0.1:43784] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 21:02:10.577528 2017] [reqtimeout:info] [pid 8398] [client 127.0.0.1:43786] AH01382: Request header read timeout
+[Wed Aug 02 21:03:26.725199 2017] [authz_core:debug] [pid 8306] mod_authz_core.c(809): [client 127.0.0.1:43794] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 21:03:26.725268 2017] [authz_core:debug] [pid 8306] mod_authz_core.c(809): [client 127.0.0.1:43794] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 21:03:26.725416 2017] [authz_core:debug] [pid 8306] mod_authz_core.c(809): [client 127.0.0.1:43794] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 21:03:26.725440 2017] [authz_core:debug] [pid 8306] mod_authz_core.c(809): [client 127.0.0.1:43794] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 21:04:18.569260 2017] [reqtimeout:info] [pid 8307] [client 127.0.0.1:43796] AH01382: Request header read timeout
