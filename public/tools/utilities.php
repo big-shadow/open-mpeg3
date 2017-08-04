@@ -13,18 +13,25 @@ function dirToArray($dir) {
    $cdir = scandir($dir); 
    foreach ($cdir as $key => $value) 
    { 
+
+      $fullpath = $dir . DIRECTORY_SEPARATOR . $value;
+
       if (!in_array($value,array(".",".."))) 
       { 
-         if (is_dir($dir . DIRECTORY_SEPARATOR . $value)) 
+         if (is_dir($fullpath)) 
          { 
-            $result[$value] = dirToArray($dir . DIRECTORY_SEPARATOR . $value); 
+            $result[$value] = dirToArray($fullpath); 
          } 
          else 
          { 
-            $result[] = $value; 
+            $result[] = $fullpath;
          } 
       } 
    } 
    
    return $result; 
 } 
+
+function json_response($data){
+    echo json_encode($data, JSON_UNESCAPED_UNICODE);
+}
