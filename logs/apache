@@ -234,3 +234,405 @@ PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/modules/
 [Wed Aug 02 21:03:26.725416 2017] [authz_core:debug] [pid 8306] mod_authz_core.c(809): [client 127.0.0.1:43794] AH01626: authorization result of Require all granted: granted
 [Wed Aug 02 21:03:26.725440 2017] [authz_core:debug] [pid 8306] mod_authz_core.c(809): [client 127.0.0.1:43794] AH01626: authorization result of <RequireAny>: granted
 [Wed Aug 02 21:04:18.569260 2017] [reqtimeout:info] [pid 8307] [client 127.0.0.1:43796] AH01382: Request header read timeout
+[Wed Aug 02 21:08:22.387930 2017] [authz_core:debug] [pid 8308] mod_authz_core.c(809): [client 127.0.0.1:43844] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 21:08:22.387988 2017] [authz_core:debug] [pid 8308] mod_authz_core.c(809): [client 127.0.0.1:43844] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 21:08:22.388137 2017] [authz_core:debug] [pid 8308] mod_authz_core.c(809): [client 127.0.0.1:43844] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 21:08:22.388157 2017] [authz_core:debug] [pid 8308] mod_authz_core.c(809): [client 127.0.0.1:43844] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 21:08:26.062231 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client ::1:55744] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 21:08:26.062287 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client ::1:55744] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 21:08:26.062437 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client ::1:55744] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 21:08:26.062457 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client ::1:55744] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 21:08:26.256173 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client ::1:55744] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 21:08:26.256219 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client ::1:55744] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 21:08:26.256322 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client ::1:55744] AH01626: authorization result of Require all granted: granted
+[Wed Aug 02 21:08:26.256342 2017] [authz_core:debug] [pid 8309] mod_authz_core.c(809): [client ::1:55744] AH01626: authorization result of <RequireAny>: granted
+[Wed Aug 02 21:09:13.827327 2017] [reqtimeout:info] [pid 8310] [client 127.0.0.1:43846] AH01382: Request header read timeout
+[Wed Aug 02 21:09:18.933607 2017] [reqtimeout:info] [pid 8397] [client ::1:55746] AH01382: Request header read timeout
+[Wed Aug 02 21:35:05.567242 2017] [core:info] [pid 8302] AH00096: removed PID file /run/httpd/httpd.pid (pid=8302)
+[Wed Aug 02 21:35:05.567289 2017] [mpm_prefork:notice] [pid 8302] AH00170: caught SIGWINCH, shutting down gracefully
+[Thu Aug 03 23:06:19.712312 2017] [ssl:info] [pid 7267] AH01887: Init: Initializing (virtual) servers for SSL
+[Thu Aug 03 23:06:19.712598 2017] [ssl:info] [pid 7267] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+[Thu Aug 03 23:06:19.735034 2017] [so:warn] [pid 7267] AH01574: module php7_module is already loaded, skipping
+[Thu Aug 03 23:06:19.738899 2017] [ssl:warn] [pid 7267] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Aug 03 23:06:19.738922 2017] [ssl:info] [pid 7267] AH01887: Init: Initializing (virtual) servers for SSL
+[Thu Aug 03 23:06:19.738942 2017] [ssl:info] [pid 7267] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+[Thu Aug 03 23:06:19.779202 2017] [mpm_prefork:notice] [pid 7267] AH00163: Apache/2.4.27 (Unix) OpenSSL/1.1.0f PHP/7.1.7 configured -- resuming normal operations
+[Thu Aug 03 23:06:19.779221 2017] [mpm_prefork:info] [pid 7267] AH00164: Server built: Jul 12 2017 08:50:27
+[Thu Aug 03 23:06:19.779234 2017] [core:notice] [pid 7267] AH00094: Command line: '/usr/bin/httpd -D FOREGROUND'
+[Thu Aug 03 23:06:19.779239 2017] [core:debug] [pid 7267] log.c(1546): AH02639: Using SO_REUSEPORT: yes (1)
+[Thu Aug 03 23:06:19.779247 2017] [mpm_prefork:debug] [pid 7267] prefork.c(916): AH00165: Accept mutex: none (default: sysvsem)
+[Thu Aug 03 23:06:27.974541 2017] [core:alert] [pid 7271] [client ::1:34850] /home/rw/Documents/GitHub-Repos/open-mpeg3/public/.htaccess: Invalid command 'XSendFile', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Aug 03 23:06:27.983065 2017] [authz_core:debug] [pid 7271] mod_authz_core.c(809): [client ::1:34850] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:06:27.983086 2017] [authz_core:debug] [pid 7271] mod_authz_core.c(809): [client ::1:34850] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:06:28.172239 2017] [core:alert] [pid 7272] [client ::1:34852] /home/rw/Documents/GitHub-Repos/open-mpeg3/public/.htaccess: Invalid command 'XSendFile', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Aug 03 23:06:28.172307 2017] [authz_core:debug] [pid 7272] mod_authz_core.c(809): [client ::1:34852] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:06:28.172314 2017] [authz_core:debug] [pid 7272] mod_authz_core.c(809): [client ::1:34852] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:11:30.848612 2017] [core:info] [pid 7267] AH00096: removed PID file /run/httpd/httpd.pid (pid=7267)
+[Thu Aug 03 23:11:30.848650 2017] [mpm_prefork:notice] [pid 7267] AH00169: caught SIGTERM, shutting down
+[Thu Aug 03 23:22:42.318839 2017] [ssl:info] [pid 7854] AH01887: Init: Initializing (virtual) servers for SSL
+[Thu Aug 03 23:22:42.318888 2017] [ssl:info] [pid 7854] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+[Thu Aug 03 23:22:42.331614 2017] [ssl:warn] [pid 7854] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Aug 03 23:22:42.331629 2017] [ssl:info] [pid 7854] AH01887: Init: Initializing (virtual) servers for SSL
+[Thu Aug 03 23:22:42.331636 2017] [ssl:info] [pid 7854] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+[Thu Aug 03 23:22:42.338372 2017] [mpm_prefork:notice] [pid 7854] AH00163: Apache/2.4.27 (Unix) OpenSSL/1.1.0f PHP/7.1.7 configured -- resuming normal operations
+[Thu Aug 03 23:22:42.338399 2017] [mpm_prefork:info] [pid 7854] AH00164: Server built: Jul 12 2017 08:50:27
+[Thu Aug 03 23:22:42.338418 2017] [core:notice] [pid 7854] AH00094: Command line: '/usr/bin/httpd -D FOREGROUND'
+[Thu Aug 03 23:22:42.338423 2017] [core:debug] [pid 7854] log.c(1546): AH02639: Using SO_REUSEPORT: yes (1)
+[Thu Aug 03 23:22:42.338431 2017] [mpm_prefork:debug] [pid 7854] prefork.c(916): AH00165: Accept mutex: none (default: sysvsem)
+[Thu Aug 03 23:22:52.517845 2017] [core:alert] [pid 7858] [client ::1:35092] /home/rw/Documents/GitHub-Repos/open-mpeg3/public/.htaccess: XSendFilePath not allowed here
+[Thu Aug 03 23:22:52.517931 2017] [authz_core:debug] [pid 7858] mod_authz_core.c(809): [client ::1:35092] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:22:52.517939 2017] [authz_core:debug] [pid 7858] mod_authz_core.c(809): [client ::1:35092] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:22:52.672890 2017] [core:alert] [pid 7859] [client ::1:35094] /home/rw/Documents/GitHub-Repos/open-mpeg3/public/.htaccess: XSendFilePath not allowed here
+[Thu Aug 03 23:22:52.672973 2017] [authz_core:debug] [pid 7859] mod_authz_core.c(809): [client ::1:35094] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:22:52.672981 2017] [authz_core:debug] [pid 7859] mod_authz_core.c(809): [client ::1:35094] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:22:55.433345 2017] [core:alert] [pid 7860] [client ::1:35096] /home/rw/Documents/GitHub-Repos/open-mpeg3/public/.htaccess: XSendFilePath not allowed here
+[Thu Aug 03 23:22:55.433428 2017] [authz_core:debug] [pid 7860] mod_authz_core.c(809): [client ::1:35096] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:22:55.433435 2017] [authz_core:debug] [pid 7860] mod_authz_core.c(809): [client ::1:35096] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:22:55.506932 2017] [core:alert] [pid 7861] [client ::1:35098] /home/rw/Documents/GitHub-Repos/open-mpeg3/public/.htaccess: XSendFilePath not allowed here
+[Thu Aug 03 23:22:55.507010 2017] [authz_core:debug] [pid 7861] mod_authz_core.c(809): [client ::1:35098] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:22:55.507016 2017] [authz_core:debug] [pid 7861] mod_authz_core.c(809): [client ::1:35098] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:24:37.486814 2017] [core:info] [pid 7854] AH00096: removed PID file /run/httpd/httpd.pid (pid=7854)
+[Thu Aug 03 23:24:37.486853 2017] [mpm_prefork:notice] [pid 7854] AH00170: caught SIGWINCH, shutting down gracefully
+[Thu Aug 03 23:24:37.638027 2017] [ssl:info] [pid 7921] AH01887: Init: Initializing (virtual) servers for SSL
+[Thu Aug 03 23:24:37.638073 2017] [ssl:info] [pid 7921] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+[Thu Aug 03 23:24:37.651579 2017] [ssl:warn] [pid 7921] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Aug 03 23:24:37.651596 2017] [ssl:info] [pid 7921] AH01887: Init: Initializing (virtual) servers for SSL
+[Thu Aug 03 23:24:37.651603 2017] [ssl:info] [pid 7921] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+[Thu Aug 03 23:24:37.657221 2017] [mpm_prefork:notice] [pid 7921] AH00163: Apache/2.4.27 (Unix) OpenSSL/1.1.0f PHP/7.1.7 configured -- resuming normal operations
+[Thu Aug 03 23:24:37.657244 2017] [mpm_prefork:info] [pid 7921] AH00164: Server built: Jul 12 2017 08:50:27
+[Thu Aug 03 23:24:37.657259 2017] [core:notice] [pid 7921] AH00094: Command line: '/usr/bin/httpd -D FOREGROUND'
+[Thu Aug 03 23:24:37.657264 2017] [core:debug] [pid 7921] log.c(1546): AH02639: Using SO_REUSEPORT: yes (1)
+[Thu Aug 03 23:24:37.657272 2017] [mpm_prefork:debug] [pid 7921] prefork.c(916): AH00165: Accept mutex: none (default: sysvsem)
+[Thu Aug 03 23:24:45.088561 2017] [authz_core:debug] [pid 7925] mod_authz_core.c(809): [client ::1:35106] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:24:45.088600 2017] [authz_core:debug] [pid 7925] mod_authz_core.c(809): [client ::1:35106] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:24:45.088693 2017] [authz_core:debug] [pid 7925] mod_authz_core.c(809): [client ::1:35106] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:24:45.088700 2017] [authz_core:debug] [pid 7925] mod_authz_core.c(809): [client ::1:35106] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:24:45.279580 2017] [authz_core:debug] [pid 7926] mod_authz_core.c(809): [client ::1:35108] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:24:45.279612 2017] [authz_core:debug] [pid 7926] mod_authz_core.c(809): [client ::1:35108] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:24:45.279669 2017] [authz_core:debug] [pid 7926] mod_authz_core.c(809): [client ::1:35108] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:24:45.279677 2017] [authz_core:debug] [pid 7926] mod_authz_core.c(809): [client ::1:35108] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:25:07.894651 2017] [authz_core:debug] [pid 7927] mod_authz_core.c(809): [client ::1:35110] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:25:07.894693 2017] [authz_core:debug] [pid 7927] mod_authz_core.c(809): [client ::1:35110] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:25:07.894769 2017] [authz_core:debug] [pid 7927] mod_authz_core.c(809): [client ::1:35110] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:25:07.894775 2017] [authz_core:debug] [pid 7927] mod_authz_core.c(809): [client ::1:35110] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:25:27.814120 2017] [authz_core:debug] [pid 7928] mod_authz_core.c(809): [client ::1:35114] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:25:27.814200 2017] [authz_core:debug] [pid 7928] mod_authz_core.c(809): [client ::1:35114] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:25:27.814401 2017] [authz_core:debug] [pid 7928] mod_authz_core.c(809): [client ::1:35114] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:25:27.814420 2017] [authz_core:debug] [pid 7928] mod_authz_core.c(809): [client ::1:35114] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:27:34.369857 2017] [authz_core:debug] [pid 7960] mod_authz_core.c(809): [client ::1:35168] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:27:34.369931 2017] [authz_core:debug] [pid 7960] mod_authz_core.c(809): [client ::1:35168] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:27:34.370131 2017] [authz_core:debug] [pid 7960] mod_authz_core.c(809): [client ::1:35168] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:27:34.370147 2017] [authz_core:debug] [pid 7960] mod_authz_core.c(809): [client ::1:35168] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:27:34.388218 2017] [:error] [pid 7960] (2)No such file or directory: [client ::1:35168] xsendfile: cannot open file: /home/rw/Documents/GitHub-Repos/open-mpeg3/public/01 - Bruce Lee [Prod by TrellGotWings] (DatPiff Exclusive).mp3
+[Thu Aug 03 23:27:34.388408 2017] [authz_core:debug] [pid 7960] mod_authz_core.c(809): [client ::1:35168] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:27:34.388432 2017] [authz_core:debug] [pid 7960] mod_authz_core.c(809): [client ::1:35168] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:28:26.431564 2017] [reqtimeout:info] [pid 7926] [client ::1:35170] AH01382: Request header read timeout
+[Thu Aug 03 23:28:45.798002 2017] [core:info] [pid 7921] AH00096: removed PID file /run/httpd/httpd.pid (pid=7921)
+[Thu Aug 03 23:28:45.798042 2017] [mpm_prefork:notice] [pid 7921] AH00170: caught SIGWINCH, shutting down gracefully
+[Thu Aug 03 23:28:45.880895 2017] [ssl:info] [pid 8110] AH01887: Init: Initializing (virtual) servers for SSL
+[Thu Aug 03 23:28:45.880939 2017] [ssl:info] [pid 8110] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+[Thu Aug 03 23:28:45.900513 2017] [ssl:warn] [pid 8110] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Aug 03 23:28:45.900530 2017] [ssl:info] [pid 8110] AH01887: Init: Initializing (virtual) servers for SSL
+[Thu Aug 03 23:28:45.900539 2017] [ssl:info] [pid 8110] AH01876: mod_ssl/2.4.27 compiled against Server: Apache/2.4.27, Library: OpenSSL/1.1.0f
+[Thu Aug 03 23:28:45.907085 2017] [mpm_prefork:notice] [pid 8110] AH00163: Apache/2.4.27 (Unix) OpenSSL/1.1.0f PHP/7.1.7 configured -- resuming normal operations
+[Thu Aug 03 23:28:45.907112 2017] [mpm_prefork:info] [pid 8110] AH00164: Server built: Jul 12 2017 08:50:27
+[Thu Aug 03 23:28:45.907133 2017] [core:notice] [pid 8110] AH00094: Command line: '/usr/bin/httpd -D FOREGROUND'
+[Thu Aug 03 23:28:45.907137 2017] [core:debug] [pid 8110] log.c(1546): AH02639: Using SO_REUSEPORT: yes (1)
+[Thu Aug 03 23:28:45.907146 2017] [mpm_prefork:debug] [pid 8110] prefork.c(916): AH00165: Accept mutex: none (default: sysvsem)
+[Thu Aug 03 23:28:51.173480 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35178] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:28:51.173570 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35178] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:28:51.173757 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35178] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:28:51.173781 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35178] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:28:51.192601 2017] [:error] [pid 8115] (20023)The given path was above the root path: [client ::1:35178] xsendfile: unable to find file: /home/rw/media1/Music/Coca_Vango_-_Runway_Juggin/01 - Bruce Lee [Prod by TrellGotWings] (DatPiff Exclusive).mp3
+[Thu Aug 03 23:28:51.192788 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35178] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:28:51.192807 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35178] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:28:52.907314 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35178] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:28:52.907377 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35178] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:28:52.907574 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35178] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:28:52.907609 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35178] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:28:52.916130 2017] [:error] [pid 8115] (20023)The given path was above the root path: [client ::1:35178] xsendfile: unable to find file: /home/rw/media1/Music/Coca_Vango_-_Runway_Juggin/01 - Bruce Lee [Prod by TrellGotWings] (DatPiff Exclusive).mp3
+[Thu Aug 03 23:28:52.916268 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35178] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:28:52.916283 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35178] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:29:43.230262 2017] [reqtimeout:info] [pid 8116] [client ::1:35180] AH01382: Request header read timeout
+[Thu Aug 03 23:29:48.360381 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:29:48.360432 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:29:48.360531 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:29:48.360539 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:29:48.370213 2017] [:error] [pid 8117] (20023)The given path was above the root path: [client ::1:35182] xsendfile: unable to find file: /mnt/media1/Music/Coca_Vango_-_Runway_Juggin/01 - Bruce Lee [Prod by TrellGotWings] (DatPiff Exclusive).mp3
+[Thu Aug 03 23:29:48.370315 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:29:48.370325 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:29:49.955840 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:29:49.955890 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:29:49.956047 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:29:49.956067 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:29:49.962153 2017] [:error] [pid 8117] (20023)The given path was above the root path: [client ::1:35182] xsendfile: unable to find file: /mnt/media1/Music/Coca_Vango_-_Runway_Juggin/01 - Bruce Lee [Prod by TrellGotWings] (DatPiff Exclusive).mp3
+[Thu Aug 03 23:29:49.962240 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:29:49.962259 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:29:51.419822 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:29:51.419871 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:29:51.420056 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:29:51.420078 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:29:51.432374 2017] [:error] [pid 8117] (20023)The given path was above the root path: [client ::1:35182] xsendfile: unable to find file: /mnt/media1/Music/Coca_Vango_-_Runway_Juggin/01 - Bruce Lee [Prod by TrellGotWings] (DatPiff Exclusive).mp3
+[Thu Aug 03 23:29:51.432619 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:29:51.432644 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35182] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:30:23.395368 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35188] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:30:23.395459 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35188] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:30:23.395627 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35188] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:30:23.395643 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35188] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:40:49.975418 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35316] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:40:49.975447 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35316] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:40:49.975646 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35316] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:40:49.975657 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35316] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:41:23.577797 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35322] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:41:23.577880 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35322] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:41:23.578074 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35322] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:41:23.578091 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35322] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:42:15.865695 2017] [reqtimeout:info] [pid 8118] [client ::1:35324] AH01382: Request header read timeout
+[Thu Aug 03 23:42:30.214532 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35328] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:42:30.214574 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35328] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:42:30.214691 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35328] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:42:30.214704 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35328] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:42:57.100223 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35334] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:42:57.100252 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35334] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:42:57.100313 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35334] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:42:57.100318 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35334] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:43:36.329788 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35340] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:43:36.329866 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35340] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:43:36.330049 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35340] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:43:36.330081 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35340] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:47:05.928884 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35440] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:47:05.928947 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35440] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:47:05.929108 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35440] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:47:05.929127 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35440] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:47:05.954252 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35440] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:47:05.954295 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35440] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:47:19.060810 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35444] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:47:19.060843 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35444] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:47:19.060924 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35444] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:47:19.060934 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35444] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:47:19.078253 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35444] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:47:19.078275 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:35444] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:48:10.856511 2017] [reqtimeout:info] [pid 8116] [client ::1:35446] AH01382: Request header read timeout
+[Thu Aug 03 23:58:01.527542 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35766] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:01.527573 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35766] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:01.527644 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35766] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:01.527651 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35766] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:01.541107 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35766] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:01.541123 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35766] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:04.360892 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35766] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:04.360946 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35766] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:04.361102 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35766] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:04.361119 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35766] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:04.387250 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35766] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:04.387273 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:35766] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:25.672249 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35922] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:25.672278 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35922] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:25.672378 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35922] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:25.672385 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35922] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:25.697909 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35922] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:25.697930 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35922] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:25.919559 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35922] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:25.919580 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35922] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:25.919634 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35922] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:25.919641 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:35922] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:39.861444 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36038] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:39.861516 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36038] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:39.861664 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36038] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:39.861683 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36038] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:39.898920 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36038] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:39.898959 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36038] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:40.093000 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36038] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:40.093029 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36038] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:40.093070 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36038] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:40.093075 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36038] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:58.082531 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:36196] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:58.082572 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:36196] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:58.082682 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:36196] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:58.082692 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:36196] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:58.109507 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:36196] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:58.109525 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:36196] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:58.349225 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:36196] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:58.349248 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:36196] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:58:58.349293 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:36196] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:58:58.349299 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:36196] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:59:55.881812 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:36722] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:59:55.881845 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:36722] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:59:55.881964 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:36722] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:59:55.881984 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:36722] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:59:55.909940 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:36722] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:59:55.909972 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:36722] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:59:56.185607 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:36722] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:59:56.185633 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:36722] AH01626: authorization result of <RequireAny>: granted
+[Thu Aug 03 23:59:56.185685 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:36722] AH01626: authorization result of Require all granted: granted
+[Thu Aug 03 23:59:56.185691 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:36722] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:00:07.067251 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36814] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:00:07.067283 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36814] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:00:07.067366 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36814] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:00:07.067375 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36814] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:00:07.087613 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36814] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:00:07.087636 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36814] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:00:07.289456 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36814] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:00:07.289478 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36814] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:00:07.289521 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36814] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:00:07.289526 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:36814] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:01:30.602556 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:01:30.602586 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:01:30.602646 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:01:30.602653 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:01:30.645887 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of Require all granted: granted, referer: http://192.168.0.14/
+[Fri Aug 04 00:01:30.645901 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of <RequireAny>: granted, referer: http://192.168.0.14/
+[Fri Aug 04 00:01:30.982437 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of Require all granted: granted, referer: http://192.168.0.14/
+[Fri Aug 04 00:01:30.982457 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of <RequireAny>: granted, referer: http://192.168.0.14/
+[Fri Aug 04 00:01:30.982497 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of Require all granted: granted, referer: http://192.168.0.14/
+[Fri Aug 04 00:01:30.982502 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of <RequireAny>: granted, referer: http://192.168.0.14/
+[Fri Aug 04 00:01:31.012869 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of Require all granted: granted, referer: http://192.168.0.14/
+[Fri Aug 04 00:01:31.012913 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of <RequireAny>: granted, referer: http://192.168.0.14/
+[Fri Aug 04 00:01:31.012997 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of Require all granted: granted, referer: http://192.168.0.14/
+[Fri Aug 04 00:01:31.013019 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client 192.168.0.2:39943] AH01626: authorization result of <RequireAny>: granted, referer: http://192.168.0.14/
+[Fri Aug 04 00:02:22.586023 2017] [reqtimeout:info] [pid 8118] [client 192.168.0.2:39944] AH01382: Request header read timeout
+[Fri Aug 04 00:07:44.612017 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:07:44.612044 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:07:44.612105 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:07:44.612111 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:07:44.626223 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:07:44.626238 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:07:44.843939 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:07:44.843964 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:07:44.844010 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:07:44.844017 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:07:44.855946 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:07:44.855966 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:07:44.856010 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:07:44.856015 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38776] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:08:36.243280 2017] [reqtimeout:info] [pid 8137] [client ::1:38778] AH01382: Request header read timeout
+[Fri Aug 04 00:10:28.978576 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38790] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:10:28.978611 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38790] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:10:28.978685 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38790] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:10:28.978699 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38790] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:10:29.004060 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38790] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:10:29.004087 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38790] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:10:29.056558 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38790] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:10:29.056582 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38790] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:10:29.056625 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38790] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:10:29.056631 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38790] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:11:21.789707 2017] [reqtimeout:info] [pid 8116] [client ::1:38792] AH01382: Request header read timeout
+[Fri Aug 04 00:12:26.835206 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38800] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:12:26.835263 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38800] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:12:26.835428 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38800] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:12:26.835444 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38800] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:12:26.871383 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38800] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:12:26.871415 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38800] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:12:27.053661 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38800] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:12:27.053688 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38800] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:12:27.053730 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38800] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:12:27.053736 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38800] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:14:38.156260 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38818] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:14:38.156316 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38818] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:14:38.156500 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38818] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:14:38.156519 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38818] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:14:38.187002 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38818] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:14:38.187041 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38818] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:14:38.354722 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38818] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:14:38.354746 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38818] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:14:38.354788 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38818] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:14:38.354795 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38818] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:16:50.520960 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38828] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:16:50.521021 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38828] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:16:50.521177 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38828] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:16:50.521194 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38828] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:16:50.541682 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38828] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:16:50.541700 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38828] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:16:50.734012 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38828] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:16:50.734034 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38828] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:16:50.734077 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38828] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:16:50.734083 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38828] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:17:14.180808 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38834] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:17:14.180860 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38834] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:17:14.181017 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38834] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:17:14.181035 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38834] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:17:14.392014 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38834] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:17:14.392037 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38834] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:17:14.392084 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38834] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:17:14.392090 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38834] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:18:06.269759 2017] [reqtimeout:info] [pid 8118] [client ::1:38836] AH01382: Request header read timeout
+[Fri Aug 04 00:19:52.263088 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38866] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:19:52.263119 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38866] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:19:52.263190 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38866] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:19:52.263197 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38866] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:19:52.280159 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38866] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:19:52.280181 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38866] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:19:52.452137 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38866] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:19:52.452162 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38866] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:19:52.452203 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38866] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:19:52.452208 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:38866] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:20:59.375898 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38952] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:20:59.375928 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38952] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:20:59.375992 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38952] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:20:59.375998 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38952] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:20:59.388776 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38952] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:20:59.388799 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38952] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:20:59.558496 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38952] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:20:59.558517 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38952] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:20:59.558561 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38952] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:20:59.558568 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:38952] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:21:12.424513 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38956] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:21:12.424553 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38956] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:21:12.424675 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38956] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:21:12.424688 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38956] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:21:12.442575 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38956] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:21:12.442601 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38956] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:21:12.612140 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38956] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:21:12.612164 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38956] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:21:12.612209 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38956] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:21:12.612216 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:38956] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:21:46.153058 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:39210] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:21:46.153087 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:39210] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:21:46.153151 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:39210] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:21:46.153157 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:39210] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:21:46.170071 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:39210] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:21:46.170093 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:39210] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:21:46.380282 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:39210] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:21:46.380308 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:39210] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:21:46.380364 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:39210] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:21:46.380373 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:39210] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:22:37.632968 2017] [reqtimeout:info] [pid 8137] [client ::1:39212] AH01382: Request header read timeout
+[Fri Aug 04 00:23:31.171521 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:40060] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:23:31.171549 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:40060] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:23:31.171612 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:40060] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:23:31.171618 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:40060] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:23:31.196578 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:40060] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:23:31.196595 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:40060] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:23:31.411749 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:40060] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:23:31.411773 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:40060] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:23:31.411815 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:40060] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:23:31.411821 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:40060] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:04.379237 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:40816] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:04.379271 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:40816] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:04.379336 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:40816] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:04.379341 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:40816] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:04.401768 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:40816] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:04.401790 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:40816] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:04.643984 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:40816] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:04.644007 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:40816] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:04.644049 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:40816] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:04.644066 2017] [authz_core:debug] [pid 8117] mod_authz_core.c(809): [client ::1:40816] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:24.224576 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:40980] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:24.224608 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:40980] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:24.224697 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:40980] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:24.224706 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:40980] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:24.240192 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:40980] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:24.240216 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:40980] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:24.468122 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:40980] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:24.468146 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:40980] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:24.468188 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:40980] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:24.468194 2017] [authz_core:debug] [pid 8119] mod_authz_core.c(809): [client ::1:40980] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:47.834882 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:41180] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:47.834913 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:41180] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:47.834980 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:41180] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:47.834987 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:41180] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:47.849610 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:41180] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:47.849631 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:41180] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:48.062242 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:41180] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:48.062268 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:41180] AH01626: authorization result of <RequireAny>: granted
+[Fri Aug 04 00:25:48.062311 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:41180] AH01626: authorization result of Require all granted: granted
+[Fri Aug 04 00:25:48.062317 2017] [authz_core:debug] [pid 8115] mod_authz_core.c(809): [client ::1:41180] AH01626: authorization result of <RequireAny>: granted
