@@ -13,6 +13,7 @@
         <button id="play">Play</button>
 
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
-        <script src="/ui/js/requestor.js" type="text/javascript"></script>
+        <script src="ui/js/utilities.js" type="text/javascript"></script>
+        <script src="ui/js/controller.js" type="text/javascript"></script>
     </body>
 </html>

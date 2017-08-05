@@ -44,7 +44,7 @@ function getSongs() {
                                     'rel': 'external',
                                     'text': value
                                 })
-                                .html(value.split(/(\\|\/)/g).pop().replace('.mp3', ''))
+                                .html(utilities.getSongName(value))
                                 .click(function() {
                                     getMp3($(this).attr('text'));
                                 })
@@ -69,7 +69,7 @@ function getMp3(filename) {
     nowPlaying = new Audio(apiUrl + '/mp3?file=' + filename);
     nowPlaying.play();
 
-    $('title').html(filename.split(/(\\|\/)/g).pop());
+    $('title').html(utilities.getSongName(filename));
 }
 
 /*

@@ -1,0 +1,31 @@
+{
+  "name": "open-mpeg3",
+  "version": "1.0.0",
+  "description": "A lightweight REST API and web client to serve MP3 files and playlists to their owners.",
+  "main": "requestor.js",
+  "scripts": {
+    "build": "uglifyjs -c --ie8 -o public/ui/js/controller.js -- scripts/controller.js && uglifyjs -c --ie8 -o public/ui/js/utilities.js -- scripts/utilities.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray-Winkelman/open-mpeg3.git"
+  },
+  "keywords": [
+    "opensource",
+    "ecmascript",
+    "php",
+    "mp3",
+    "streaming",
+    "music"
+  ],
+  "author": "Ray Winkelman",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Ray-Winkelman/open-mpeg3/issues"
+  },
+  "homepage": "https://github.com/Ray-Winkelman/open-mpeg3#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

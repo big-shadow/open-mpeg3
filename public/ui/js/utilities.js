@@ -1,0 +1,1 @@
+var utilities={getSongName:function(fullpath){return fullpath.split(/(\\|\/)/g).pop().replace(".mp3","")}};
