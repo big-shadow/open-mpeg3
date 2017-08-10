@@ -1,0 +1,12 @@
+body {
+    background-color:#292b2c;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#fff;
+}
+
+audio {
+    width: 100%;
+    height: 36px;
+}
