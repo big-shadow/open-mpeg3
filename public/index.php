@@ -1,12 +1,6 @@
 <?php
-// Inject our Composer dependencies. 
 require '../vendor/autoload.php';
 require './tools/utilities.php';
-/*
-This is a simple REST API to serve MP3 files.    
-Author: Ray Winkelman, raywinkelman@gmail.com
-Date: August 2, 2017
-*/
 Flight::route('/', function()
 {
     $file = file_get_contents('./ui/ui.php');
@@ -20,12 +14,12 @@ Flight::route('GET /files', function()
 Flight::route('/file', function()
 {
     $file = Flight::request()->query['file'];
-    if (file_exists($file)) {
-        if (endsWith($file, 'mp3')) {
+    if(file_exists($file)) {
+        if(endsWith($file, 'mp3')) {
             header('Content-Type: audio/mpeg');
         } else {
             $file_extension = strtolower(substr(strrchr($file, "."), 1));
-            switch ($file_extension) {
+            switch($file_extension) {
                 case "png":
                     $ctype = "image/png";
                     break;
@@ -37,12 +31,22 @@ Flight::route('/file', function()
             }
             header('Content-Type: ' . $ctype);
         }
+        header('Accept-Ranges: none');
         header('Content-Disposition: filename="' . basename($file) . '"');
         header('Content-length: ' . filesize($file));
-        header('Cache-Control: no-cache');
-        header("Content-Transfer-Encoding: chunked");
-        header('Content-Disposition: inline;filename="' . basename($file) . '"');
-        readfile($file);
+        header('Cache-Control: max-age=604800');
+        header('Content-Transfer-Encoding: binary');
+        flush();
+        $chunksize = 1 * (1024 * 1024);
+        $handle    = fopen($file, 'rb');
+        if($handle === false) {
+            return false;
+        }
+        while(!feof($handle)) {
+            print fread($handle, $chunksize);
+            flush();
+        }
+        fclose($handle);
     }
 });
 Flight::start();

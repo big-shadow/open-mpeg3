@@ -20,19 +20,20 @@ function getSongs() {
                     }
                 });
             });
-            let x = 0
+            
             $.each(JSON.parse(result), function(i, v) {
-                x++;
+            let x = 0
                 $.each(v, function(index, value) {
                     if(!value.endsWith(".mp3")) {
                         return;
                     }
-                    let params = index == 1 ? {
+                    x++;
+                    let params = x == 1 ? {
                         'style': 'background-color:	#000000'
                     } : {}
                     table.append($.el('tr', params)
                         .append($.el('td', {})
-                            .append(index))
+                            .append(x))
                         .append($.el('td', {})
                             .append(i))
                         .append($.el('td', {})
@@ -59,11 +60,11 @@ function playMp3(filename, dir) {
     let song = utilities.getSongName(filename)
     $('#album-art-col').hide();
     $('title').html(song);
-    $('#player').attr("src", apiUrl + '/file?file=' + filename);
+    $('#player').attr("src", `${apiUrl}/file?file=${filename}`);
     $('#player-text').html(dir + ' - ' + song);
     let index = albumArt.indexOfString(utilities.getDir(filename));
     if(index >= 0) {
-        $('#album-art').attr("src", apiUrl + '/file?file=' + albumArt[index]);
+        $('#album-art').attr("src", `${apiUrl}/file?file=${albumArt[index]}`);
         $('#album-art-col').show();
     }
 }
