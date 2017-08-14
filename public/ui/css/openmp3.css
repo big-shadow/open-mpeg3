@@ -1,12 +1,46 @@
+html { font-size: 80%; } 
+
+@font-face {
+  font-family: 'Ubuntu-L';
+  src: url('../fonts/Ubuntu-L.ttf')  format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Ubuntu-R';
+  src: url('../fonts/Ubuntu-R.ttf')  format('truetype');
+
+}
+
 body {
+    font-family: 'Ubuntu-L', Fallback, sans-serif;
     background-color:#292b2c;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,span {
+    font-family: 'Ubuntu-R', Fallback, sans-serif;
     color:#fff;
 }
 
 audio {
     width: 100%;
     height: 36px;
+}
+
+a:link, a:active, a:visited {
+    color: hotpink;
+    text-decoration:none;
+}
+
+a:hover {
+    color: white;
+    text-decoration:none;
+}
+
+td {
+    font-size: 1rem;
+}
+
+#tracklist {
+    margin-bottom:100px;
 }

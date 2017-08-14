@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="ui/img/music.png">
         <link rel="stylesheet" href="ui/css/tether.min.css">
         <link rel="stylesheet" href="ui/css/tether-theme-arrows-dark.min.css">
         <link rel="stylesheet" href="ui/css/bootstrap.min.css">
@@ -19,8 +20,7 @@
         <div class="container-fluid">
             <div class="row">
                 <h1>open-mp3</h1>
-                | 
-                <h6 style="margin-top:1rem;">2017 &copy; ray w.</h6>
+                <h6 style="margin-top:1rem;">&nbsp;&nbsp;&nbsp;2017 &copy; ray w.</h6>
             </div>
             <div class="row">
                 <table id="tracklist" class="table table-striped table-inverse table-responsive table-sm table-hover">

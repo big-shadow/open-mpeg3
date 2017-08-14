@@ -61,7 +61,7 @@ function playMp3(filename, dir) {
     $('#album-art-col').hide();
     $('title').html(song);
     $('#player').attr("src", `${apiUrl}/file?file=${filename}`);
-    $('#player-text').html(dir + ' - ' + song);
+    $('#player-text').html(`${dir} - ${song}`);
     let index = albumArt.indexOfString(utilities.getDir(filename));
     if(index >= 0) {
         $('#album-art').attr("src", `${apiUrl}/file?file=${albumArt[index]}`);
