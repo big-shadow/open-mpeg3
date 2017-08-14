@@ -1,5 +1,5 @@
 var fs = require('fs');
-const file = '/home/rw/Documents/GitHub-Repos/open-mpeg3/package.json';
+const file = './package.json';
 
 
 fs.readFile(file, 'utf8', function (err, data) {
@@ -37,7 +37,7 @@ fs.readFile(file, 'utf8', function (err, data) {
           return console.log(err);
       }
 
-      console.log("Updated version.");
+      console.log(`Updated version to ${major}.${minor}.${commit}`);
   });
 
 });
