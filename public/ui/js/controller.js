@@ -5,6 +5,7 @@
 */
 const apiUrl = '';
 let albumArt = [];
+let next = {dir:'', filename:''};
 
 function getSongs() {
     $('#album-art-col').hide();
@@ -45,8 +46,7 @@ function getSongs() {
                                 })
                                 .html(utilities.getSongName(value))
                                 .click(function() {
-                                    playMp3($(this).attr('text'), $(this).attr(
-                                        'data-directory'));
+                                    playMp3(this);
                                 })
                             ))
                     )
@@ -56,7 +56,10 @@ function getSongs() {
     });
 }
 
-function playMp3(filename, dir) {
+function playMp3(el) {
+    let filename = $(el).attr('text');
+    let dir =  $(el).attr('data-directory');
+
     let song = utilities.getSongName(filename)
     $('#album-art-col').hide();
     $('title').html(song);
@@ -67,7 +70,23 @@ function playMp3(filename, dir) {
         $('#album-art').attr("src", `${apiUrl}/file?file=${albumArt[index]}`);
         $('#album-art-col').show();
     }
+    setNext(el);
+    monitorTrack();
 }
+
+function monitorTrack(){
+    setTimeout(function(){ 
+        if($('#player')[0].ended == true){
+            playMp3(next);
+        }
+        monitorTrack();
+    }, 1000);
+}
+
+function setNext(el){
+    next = $(el).parents("tr").next().find("a");
+}
+
 
 function filterTable() {
     let input, filter, table, tr, td, i;
