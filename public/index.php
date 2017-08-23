@@ -1,16 +1,20 @@
 <?php
 require '../vendor/autoload.php';
 require './tools/utilities.php';
+
 Flight::route('/', function()
 {
     $file = file_get_contents('./ui/ui.php');
     echo $file;
 });
+
 Flight::route('GET /files', function()
 {
-    $dir_contents = dirToArray('/mnt/media1/Music/');
+    $config = json_decode(file_get_contents('./app.config'));
+    $dir_contents = dirToArray($config->music_dir);
     json_response($dir_contents);
 });
+
 Flight::route('/file', function()
 {
     $file = Flight::request()->query['file'];
@@ -49,4 +53,5 @@ Flight::route('/file', function()
         fclose($handle);
     }
 });
+
 Flight::start();

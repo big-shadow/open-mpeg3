@@ -5,7 +5,10 @@
 */
 const apiUrl = '';
 let albumArt = [];
-let next = {dir:'', filename:''};
+let next = {
+    dir: '',
+    filename: ''
+};
 
 function getSongs() {
     $('#album-art-col').hide();
@@ -21,9 +24,9 @@ function getSongs() {
                     }
                 });
             });
-            
+
             $.each(JSON.parse(result), function(i, v) {
-            let x = 0
+                let x = 0
                 $.each(v, function(index, value) {
                     if(!value.endsWith(".mp3")) {
                         return;
@@ -58,7 +61,7 @@ function getSongs() {
 
 function playMp3(el) {
     let filename = $(el).attr('text');
-    let dir =  $(el).attr('data-directory');
+    let dir = $(el).attr('data-directory');
 
     let song = utilities.getSongName(filename)
     $('#album-art-col').hide();
@@ -74,19 +77,34 @@ function playMp3(el) {
     monitorTrack();
 }
 
-function monitorTrack(){
-    setTimeout(function(){ 
-        if($('#player')[0].ended == true){
+function monitorTrack() {
+
+    if(next == null) {
+        return;
+    }
+
+    setTimeout(function() {
+        if($('#player')[0].ended == true) {
             playMp3(next);
+        } else {
+            monitorTrack();
         }
-        monitorTrack();
-    }, 1000);
+    }, 1500);
 }
 
-function setNext(el){
+function setNext(el) {
     next = $(el).parents("tr").next().find("a");
-}
 
+    // There's an active fliter so treat it as a playlist.
+    let tmp = $(next).parents("tr").first().get()[0];
+
+    // No more songs in the list, matching criteria.
+    if(tmp === undefined) {
+        next = null;
+    } else if(tmp.style.display == "none") {
+        setNext(next);
+    }
+}
 
 function filterTable() {
     let input, filter, table, tr, td, i;
